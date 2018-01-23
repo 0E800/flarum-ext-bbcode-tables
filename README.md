@@ -31,6 +31,7 @@ Usage & Examples:
 *Responsive mobile view:*<br>
 ![Imgur](https://i.imgur.com/Urgq0rU.png)
 <br>
+<br>
 **Light Table**
 
 `[lr35]Direction, Location, Position, North, USA, Absolute,South, Brazil, Unconfirmed, Center, USSR, Dynamic, Lateral, New Zealand, Neutral[/lr35]`
