@@ -12,7 +12,7 @@ Features:
 <br>
 <br>
 ♦ Mobile Friendly
-*Supported Table dimensions:*
+*Supported Table dimensions:* <br>
 `4 x 6, 4 x 5, 4 x 4, 4 x 3` <br>
 `3 x 6, 3 x 5, 3 x 4, 3 x 3`<br>
 `2 x 6 , 2 x 5, 2 x 4, 2 x 3`<br>
