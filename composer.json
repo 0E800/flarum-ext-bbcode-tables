@@ -1,0 +1,23 @@
+{
+    "name": "oe800/flarum-ext-bbcode-tables",
+    "description": "Add responsive tables to Flarum",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+  "extra": {
+        "flarum-extension": {
+            "title": "BBCode Tables",
+            "icon": {
+                "name": "table",
+                "backgroundColor": "#000",
+                "color": "#fff"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "oe800\\BBCodeTables\\": "src/"
+    }
+}
+}

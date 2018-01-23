@@ -1,0 +1,180 @@
+
+//DARK Responcive .table1s modified from: https://webdesignerhut.com/pure-css-responsive-tablels/
+
+.table1 {
+        width: 750px;
+        border-collapse: collapse;
+        margin:50px auto;
+  overflow: hidden;
+border-radius: 20px;
+-webkit-box-shadow: 0 6px 6px rgba(0,0,0,0.23);
+       -moz-box-shadow: 0 6px 6px rgba(0,0,0,0.23);
+            box-shadow: 0 6px 6px rgba(0,0,0,0.23);        }
+.table1 th {
+color: #ccc;
+  background: #1b1e24;
+border: 1px solid transparent;
+  border-bottom: 2px solid #0E0E0E;
+  font-size: 20px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+        }
+.table1 td {
+padding: 10px;
+        text-align: left;
+        font-size: 18px;
+border-bottom: 1px solid #0E0E0E;
+border-right: 1px solid #0E0E0E;
+background-color: #222222;
+}
+/* 
+Max width before this PARTICULAR .table1 gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	.table1 { 
+	  	width: 100%; 
+	}
+
+	/* Force .table1 to not be like .table1s anymore */
+	.table1, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide .table1 headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.table1 tr { border-bottom: 1px solid #222; }
+	
+	.table1 td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #222; 
+		position: relative;
+		padding-left: 50%;
+background-color: #0E0E0E; 
+	}
+
+	.table1 td:before { 
+		/* Now like a .table1 header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		/* Label the data */
+		content: attr(data-column);
+color: #ccc;
+		font-weight: bold;
+	}
+
+}
+
+//White.Red  Responcive .table2s from: https://webdesignerhut.com/pure-css-responsive-tablels/
+.table2 {
+        width: 750px;
+background-color: #fff;
+        border-collapse: collapse;
+        margin:50px auto;
+        overflow: hidden;
+        border-radius: 10px;
+box-shadow: 0 0px 13px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 13px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 13px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 13px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 13px 0px rgba(0, 0, 0, 0.15);
+}
+
+.table2 th {
+ padding: 10px;
+         color: #fa4251;
+  line-height: 1.4;
+ box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+        border-bottom: 2px solid #f2f2f2;
+        font-size: 20px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        vertical-align: middle;
+}
+.table2 td {
+color: #808080;
+        padding: 10px;
+        text-align: left;
+        font-size: 18px;
+        border-bottom: 1px solid #f2f2f2;
+        border-right: 1px solid #f2f2f2;
+        background-color: transparent;
+}
+/*
+Max width before this PARTICULAR .table2 gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+        .table2 {
+                width: 100%;
+background-color: #fff;
+box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Force .table2 to not be like .table2s anymore */
+        .table2, .table2 thead, .table2 tbody, .table2 th, .table2 td, .table2 tr {
+                display: block;
+        }
+
+        /* Hide .table2 headers (but not display: none;, for accessibility) */
+        .table2 thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+        }
+
+        .table2 tr { border-bottom: 1px solid #f2f2f2; }
+
+        .table2 td {
+                /* Behave  like a "row" */
+                border: none;
+                border-bottom: 1px solid #f2f2f2;
+                position: relative;
+                padding-left: 50%;
+                background-color: transparent;
+        }
+
+        .table2 td:before {
+                /* Now like a .table2 header */
+                position: absolute;
+                /* Top/left values mimic padding */
+                top: 6px;
+                left: 6px;
+                width: 45%;
+                padding-right: 10px;
+                white-space: nowrap;
+                /* Label the data */
+                content: attr(data-column);
+                color: #fa4251;
+                font-weight: bold;
+        }
+
+}
+
