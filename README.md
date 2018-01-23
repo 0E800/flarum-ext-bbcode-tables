@@ -26,13 +26,19 @@ Usage & Examples:
 
 `[tr36]Color,Shape,Dimension,Blue,Triangle,3x4,Red,Square,5x7,White,Circle,2x2,Yellow,Rectangle,6x3,Brown,Oval,3x3[/tr36]`
 
-![Imgur](https://i.imgur.com/CoFSlye.png)
+![Imgur](https://i.imgur.com/RrcQrOH.png)
 
+*Responsive mobile view:*
+![Imgur](https://i.imgur.com/Urgq0rU.png)
 
 **Light Table**
 
-`[lr36]Color,Shape,Dimension,Blue,Triangle,3x4,Red,Square,5x7,White,Circle,2x2,Yellow,Rectangle,6x3,Brown,Oval,3x3[/lr36]`
+`[lr35]Direction, Location, Position, North, USA, Absolute,South, Brazil, Unconfirmed, Center, USSR, Dynamic, Lateral, New Zealand, Neutral[/lr35]`
 
-![Imgur](https://i.imgur.com/J3mDFXM.png)
+![Imgur](https://i.imgur.com/brWaGJI.png)
 
-More styles coming soon!
+*Responsive mobile view:*
+![Imgur](https://i.imgur.com/Ve1uIWj.png)
+
+
+More styles comming soon!
