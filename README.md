@@ -26,18 +26,18 @@ Usage & Examples:
 
 `[tr36]Color,Shape,Dimension,Blue,Triangle,3x4,Red,Square,5x7,White,Circle,2x2,Yellow,Rectangle,6x3,Brown,Oval,3x3[/tr36]`
 
-![Imgur](https://i.imgur.com/RrcQrOH.png)
+![Imgur](https://i.imgur.com/RrcQrOH.png)<br>
 
-*Responsive mobile view:*
+*Responsive mobile view:*<br>
 ![Imgur](https://i.imgur.com/Urgq0rU.png)
-
+<br>
 **Light Table**
 
 `[lr35]Direction, Location, Position, North, USA, Absolute,South, Brazil, Unconfirmed, Center, USSR, Dynamic, Lateral, New Zealand, Neutral[/lr35]`
 
-![Imgur](https://i.imgur.com/brWaGJI.png)
+![Imgur](https://i.imgur.com/brWaGJI.png) <br>
 
-*Responsive mobile view:*
+*Responsive mobile view:*<br>
 ![Imgur](https://i.imgur.com/Ve1uIWj.png)
 
 
